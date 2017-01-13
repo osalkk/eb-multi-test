@@ -30,7 +30,7 @@
       "memory": 1000,
       "environment": [
         {
-          "name": "ES_HEAP_SIZE",
+          "name": "ES_JAVA_OPTS",
           "value": "512m"
         }
       ]
