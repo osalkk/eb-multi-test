@@ -1,0 +1,32 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "truck-web",
+      "image": "osalkk/truck-web",
+      "environment": [
+        {
+          "name": "Container",
+          "value": "Flask"
+        }
+      ],
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 5000
+        }
+      ],
+      "essential": true,
+      "memory": 128,
+      "links": [
+        "elasticsearch"
+      ]
+    },
+    {
+      "name": "elasticsearch",
+      "image": "elasticsearch",
+      "essential": true,
+      "memory": 128
+    }
+  ]
+}
