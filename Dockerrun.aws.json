@@ -22,11 +22,18 @@
         "es"
       ]
     },
+
     {
       "name": "es",
       "image": "elasticsearch",
-      "essential": false,
-      "memory": 2048
+      "essential": true,
+      "memory": 1500,
+      "environment": [
+        {
+          "name": "ES_HEAP_SIZE",
+          "value": "1g"
+        }
+      ]
     }
   ]
 }
