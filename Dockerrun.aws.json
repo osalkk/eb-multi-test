@@ -25,7 +25,7 @@
     {
       "name": "elasticsearch",
       "image": "elasticsearch",
-      "essential": true,
+      "essential": false,
       "memory": 512
     }
   ]
