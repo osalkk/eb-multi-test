@@ -23,10 +23,9 @@
       ]
     },
     {
-      "name": "elasticsearch",
+      "name": "es",
       "image": "elasticsearch",
-      "essential": false,
-      "memory": 512
+      "essential": false
     }
   ]
 }
