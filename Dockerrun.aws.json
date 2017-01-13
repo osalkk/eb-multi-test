@@ -17,7 +17,7 @@
         }
       ],
       "essential": true,
-      "memory": 524288000,
+      "memory": 500,
       "links": [
         "es"
       ]
@@ -27,7 +27,7 @@
       "name": "es",
       "image": "elasticsearch",
       "essential": true,
-      "memory": 524288000,
+      "memory": 500,
       "environment": [
         {
           "name": "ES_JAVA_OPTS",
