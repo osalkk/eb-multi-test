@@ -27,7 +27,7 @@
       "name": "es",
       "image": "elasticsearch",
       "essential": true,
-      "memory": 2000,
+      "memory": 4000,
       "environment": [
         {
           "name": "ES_JAVA_OPTS",
