@@ -19,7 +19,7 @@
       "essential": true,
       "memory": 128,
       "links": [
-        "elasticsearch"
+        "es"
       ]
     },
     {
