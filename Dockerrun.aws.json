@@ -17,7 +17,7 @@
         }
       ],
       "essential": true,
-      "memory": 500,
+      "memory": 128,
       "links": [
         "es"
       ]
@@ -27,7 +27,13 @@
       "name": "es",
       "image": "elasticsearch",
       "essential": true,
-      "memory": 2000
+      "memory": 1000,
+      "environment": [
+        {
+          "name": "ES_HEAP_SIZE",
+          "value": "500m"
+        }
+      ]
     }
   ]
 }
