@@ -31,7 +31,7 @@
       "environment": [
         {
           "name": "ES_HEAP_SIZE",
-          "value": "500m"
+          "value": "512m"
         }
       ]
     }
